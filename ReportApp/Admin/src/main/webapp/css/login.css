@@ -1,0 +1,38 @@
+#wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+form{
+    border: solid 2px #3897f0;
+    border-radius: 30px;
+    padding: 100px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+   /* text-align: right;*/
+
+
+}
+form .input{
+    width: 350px;
+    padding: 15px;
+    border: solid 1px #3897f0;
+    border-radius: 20px;
+    outline: none;
+    color: black;
+}
+
+.submit{
+    width: 100px;
+    padding: 15px;
+    cursor: pointer;
+    border: solid 1px #3897f0;
+    border-radius: 20px 0;
+    outline: none;
+    margin:5px 5px;
+    background-color:  #3897f0;
+    color: white;
+}
+.submit:hover{
+    border-color: aqua;
+}

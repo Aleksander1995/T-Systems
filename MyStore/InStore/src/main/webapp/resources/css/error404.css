@@ -1,0 +1,24 @@
+body{
+    background-color: #fafafa;
+    font-family: Blogger-Sans,Arial, Helvetica, sans-serif
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#wrapper h1{
+    text-align: center;
+    color: #003569;
+    font-size: 40px;
+}
+#wrapper a{
+    color: red;
+}
+#wrapper a:hover{
+    text-decoration: underline;
+}

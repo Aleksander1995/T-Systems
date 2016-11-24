@@ -1,0 +1,37 @@
+body{
+	background-color: #fafafa; 
+}
+#loginIn{
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	width: 472px;
+	height: 395px;
+	background: white;
+	border: ridge 2px #ccc;
+	position: absolute;
+	margin:100px auto;
+	text-align: center;
+}
+#loginIn input{
+	width: 430px;
+	padding: 15px 10px 15px;
+	font-size: 14px;
+	border: ridge;
+	margin-bottom: 2px;
+}
+#loginIn img{
+	width: 472px;
+}
+#loginIn #entrysubmit{
+	width: 430px;
+	background-color: #3897f0;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	cursor:pointer;
+}
+.errInfo{
+	color:red;
+}

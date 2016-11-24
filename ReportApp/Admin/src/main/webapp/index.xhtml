@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough">
+
+<h:head>
+    <title>Администратор</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="shortcut icon" href="http://findicons.com/files/icons/977/rrze/720/user_admin.png"/>
+</h:head>
+
+<h:body>
+    <div id="wrap">
+        <h:form>
+            <h:panelGrid columns="3" border="0">
+              <!--  <h:outputText value="email"/>-->
+                <h:inputText value="#{user.email}" id="email" p:placeholder="type email" styleClass="input"  required="true" requiredMessage="Поле email должно быть заполненным" validatorMessage="Некорректные данные email">
+                    <f:validateLength minimum="1" maximum="45" />
+                    <f:validateRegex pattern="^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$" />
+                </h:inputText>
+                <h:message for="email" style="color:red"/>
+               <!-- <h:outputText value="password"/>-->
+                <h:inputSecret id="password" value="#{user.password}"  p:placeholder="type password" styleClass="input" required="true" requiredMessage="Поле password должно быть заполненным" validatorMessage="Некорректные данные password">
+                    <f:validateLength minimum="1" maximum="45" />
+                </h:inputSecret>
+                <h:message for="password" style="color:red"/>
+            </h:panelGrid>
+            <h:commandButton value="Вход" action="#{user.login}" styleClass="submit"/>
+        </h:form>
+    </div>
+</h:body>
+</html>

@@ -1,0 +1,122 @@
+body{
+	background-color: #fafafa;
+	font-family: Blogger-Sans, Arial, sans-serif
+}
+@font-face {
+	font-family: Blogger-Sans;
+	src: url(../../resources/fonts/blogger-sans/Blogger_Sans-Italic.otf);
+}
+#wrap{
+	opacity: 1.0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	padding:16px;
+	background-color: rgba(1, 1, 1, 0.725);
+	overflow: auto;
+}
+#loginIn{
+	display: none;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	width: 472px;
+	height: 395px;
+	background: white;
+	border: ridge 2px #ccc;
+	position: absolute;
+	margin:100px auto;
+	text-align: center;
+}
+#loginIn input{
+	width: 430px;
+	padding: 15px 10px 15px;
+	font-size: 14px;
+	border: ridge;
+	margin-bottom: 2px;
+}
+#loginIn img{
+	width: 472px;
+}
+#loginIn #entrysubmit{
+	width: 430px;
+	background-color: #3897f0;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	cursor:pointer;
+}
+.reg-image {
+	width: 1417px;
+	text-align: center;
+	z-index: 200;
+	margin: 150px auto;
+}
+	
+#image{
+	float: left;
+	height: 700px;
+	border: ridge;
+}
+#image img{
+	height: 700px;
+}
+#reg-form{
+	
+	float: left;
+	background-color: #fafafa;
+}
+#reg_part_one{
+	background-color: white;
+	border: ridge 2px #E0E0E0;
+	width: 350px;
+	height: 603px;
+}
+#reg_part_one img{
+	width: 350px;
+}
+#reg_part_one h3,p{
+	color: #999;
+}
+#forms input{
+	width: 300px;
+	padding: 9px 8px 7px;
+	font-size: 14px;
+	border: ridge;
+	margin-bottom: 5px;
+}
+#forms #submit{
+	background-color: #3897f0;
+	border-color: #3897f0;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	width: 300px;
+	cursor:pointer;
+}
+
+#reg_part_two{
+	background-color: white;
+	border: ridge 2px #E0E0E0;
+}
+#reg_part_two h3{
+	font-size: 18px;
+	color: #3897f0;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.focused {
+	outline: ridge 2px #3897f0;
+}
+
+.reg-image:after {
+		content: '';
+		display: table;
+		clear: both;
+}
+.errInfo{
+	color:red;
+}

@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Caviar-Dreams;
+    src: url(../../resources/fonts/caviar-dreams/CaviarDreams_BoldItalic.ttf);
+}
+@font-face {
+    font-family: Blogger-Sans;
+    src: url(../../resources/fonts/blogger-sans/Blogger_Sans-Italic.otf);
+}
+.header{
+    min-width: 509px;
+    border: 2px solid #3897f0;
+    background-color: white;
+}
+
+.lower-header{
+    /*height: 45px;*/
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+}
+.lower-header a>h2{
+    padding: 5px 0;
+    font-family: Blogger-Sans, sans-serif;
+    font-size: 26px;
+    color: #3897f0;
+    text-decoration: none;
+    margin: 0px 0;
+    cursor: pointer;
+}
+.lower-header a>h2:hover{
+background-color: #add2f1;
+}
+#product{
+    margin: 0 10px;
+}
+.upper-header{
+    justify-content: space-between;
+}
+.upper-header, .lower-header{
+    display: flex;
+    flex-wrap: wrap;
+}
+#result_content{
+    position: absolute;
+}
+.header img{
+    margin: 10px 10px 0 10px;
+    height: 180px;
+}
+#emblem{
+    margin-right: auto;
+}
+#advertising{
+  /*  display: flex;*/
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+#advertising .advertising-elem{
+    margin:0;
+}
+#advertising #header-image{
+    height: 150px;
+    width: 471px;
+}
+a{
+    text-decoration: none;
+}
+#basket{
+    width: 374px;
+    text-align: center;
+   /* margin-left:auto;*/
+}
+.upper-header #advertising > h1{
+    font-family: Blogger-Sans, sans-serif;
+    font-size:24px;
+    color:darkslategray;
+}
+/*#search{
+    width: 100%;
+    margin: 5px 0 5px 0;
+    text-align: center;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid #3897f0;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: white;
+    background: url(/resources/images/find.png);
+    background-position: 10px 10px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}*/

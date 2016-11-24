@@ -1,0 +1,36 @@
+body{
+	background-color: #fafafa;
+	font-family: Blogger-Sans,Arial, Helvetica, sans-serif
+}
+#gallery{
+	color: #003569;
+	border: 2px solid #3897f0;
+	border-radius: 30px;
+	background-color: white;
+	margin-top: 10px;
+	min-width: 509px;
+}
+
+#gallery h1{
+	text-align: center;
+	font-size: 40px;
+}
+#gallery .img_ourProducts{
+	height: 350px;
+}
+#gallery #ourProducts{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#gallery #productCategory{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #003569;
+}
+#gallery .img_ourProducts:hover{
+	border: 1px solid #3897f0;
+	border-radius: 30px;
+}

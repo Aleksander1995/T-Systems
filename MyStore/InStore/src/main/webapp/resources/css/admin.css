@@ -1,0 +1,89 @@
+body{
+	background-color: #fafafa;
+	font-family: Blogger-Sans,Arial,  sans-serif
+}
+
+#gallery{
+	border: 2px solid #3897f0;
+	border-radius: 30px;
+	background-color: white;
+	min-width: 509px;
+	margin-top: 10px;
+
+}
+#gallery h1{
+	text-align: center;
+	color: #003569;
+	font-size: 40px;
+}
+#wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+}
+
+form input{
+	width: 300px;
+	padding: 10px;
+	font-size: 14px;
+	border: ridge;
+	margin-bottom: 5px;
+	border-radius: 30px 0;
+	outline: none;
+
+}
+#right .submit{
+	background-color: #3897f0;
+	border-color: #3897f0;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	width: 300px;
+	cursor:pointer;
+}
+#left a{
+	text-decoration: none;
+}
+#sign_out a{
+	color:red;
+}
+#sign_out a:hover{
+	text-decoration: underline;
+}
+
+form{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+form#findUser {
+	margin-left: 10px;
+}
+/*#right #edit{
+	cursor: pointer;
+}*/
+/*#right form{
+	!* display: none; *!
+}
+#right input{
+	width: 300px;
+	padding: 9px 8px 7px;
+	font-size: 14px;
+	border: ridge;
+	margin-bottom: 5px;
+}
+#right .submit{
+	background-color: #3897f0;
+	border-color: #3897f0;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	width: 300px;
+	cursor:pointer;
+}*/
+
+.errInfo{
+	color:red;
+}
